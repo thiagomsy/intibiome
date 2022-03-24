@@ -82,7 +82,7 @@ nav ul li i.arrow{
 }
 
 section{
-  padding: 80px 40px;
+  padding: 80px 40px 0;
   display: flex;
   justify-content: center;
 }
@@ -94,8 +94,12 @@ section .content{
   align-items: center;
 }
 
-section .content .text{
+section.first-section .content .text{
   max-width: 530px;
+}
+
+section.second-section .content .text{
+  max-width: 720px;
 }
 
 section .content .text h2{
@@ -113,4 +117,56 @@ section .content .text p{
 
 section .content img{
   padding-top: 20px;
+}
+
+section .cards {
+  display: flex;
+  padding-top: 60px;
+}
+
+section .cards .card {
+  border-radius: 16px;
+  box-shadow: 0px 3px 16px #00000014;
+  max-width: 356px;
+  margin-left: 33px;
+}
+
+section .cards .first-card {
+  margin-left: 0;
+}
+
+section .cards .card img {
+  padding: 0;
+}
+
+section .cards .card p {
+  margin: 22px;
+  margin-bottom: 32px;
+  color: #767270;
+  font-size: 20px;
+}
+
+section .cards .card .card-footer {
+  height: 74px;
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .cards .first-card .card-footer {
+  background-color: #389CD6;
+}
+
+section .cards .second-card .card-footer {
+  background-color: #309D5F;
+}
+
+section .cards .third-card .card-footer {
+  background-color: #EE6381;
+}
+
+section .cards .card .card-footer span {
+  color: #fff;
+  font-size: 25px;
 }
