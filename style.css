@@ -2,6 +2,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS';
 }
 
 html,
@@ -13,60 +14,60 @@ body {
   overflow-x: hidden;
 }
 
-.container .header{
+.header{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-.container .header img.logo{
+.header img.logo{
   width: 195px;
 }
 
-.container .header .search{
+.header .search{
   display: flex;
   align-items: center;
   position: absolute;
   right: 20px;
 }
 
-.container .header .search img{
+.header .search img{
   padding-right: 8px;
 }
 
-.container .header .search input{
+.header .search input{
   border: 1px #ccc solid;
   border-radius: 4px;
 }
 
-.container nav{
+nav{
   background-color: #389cd7;
   height: 48px;
   display: flex;
   justify-content: center;
 }
 
-.container nav ul{
+nav ul{
   color: #fff;
   display: flex;
   align-items: center;
   height: 48px;
 }
 
-.container nav ul li{
+nav ul li{
   width: 190px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container nav ul li span{
+nav ul li span{
   display: inline-block;
   padding-right: 10px;
 }
 
-.container nav ul li i.arrow{
+nav ul li i.arrow{
   border: solid #fff;
   border-radius: 2px;
   border-width: 0 2px 2px 0;
@@ -74,4 +75,42 @@ body {
   padding: 3px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.banner-hero img{
+  width: 100%;
+}
+
+section{
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+section .content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .content .text{
+  max-width: 530px;
+}
+
+section .content .text h2{
+  padding-bottom: 20px;
+  color: #3b9bd3;
+  font-weight: bold;
+  font-size: 39px;
+}
+
+section .content .text p{
+  padding-top: 20px;
+  color: #767270;
+  font-size: 20px;
+}
+
+section .content img{
+  padding-top: 20px;
 }
