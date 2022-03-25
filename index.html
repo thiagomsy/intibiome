@@ -5,11 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/main.js"></script>
   <title>Inti Biome</title>
 </head>
 <body>
   <div class="container">
-    <div class="header">
+    <div class="header header-desktop">
       <img class="logo" src="./img/logo_header.png" alt="inti biome co developed with gynaecologists">
       <img class="search" src="./img/ic_search.svg" alt="Search">
     </div>
@@ -60,23 +62,36 @@
     </nav>
 
     <nav class="nav-mobile">
-      <ul>
-        <li>
-          <span>about us</span>
-          <i class="arrow"></i>
-        </li>
-        <li>
-          <span>our products</span>
-          <i class="arrow"></i>
-        </li>
-        <li>
-          <span>intimate health</span>
-          <i class="arrow"></i>
-        </li>
-        <li>
-          <span>contact us</span>
-        </li>
-      </ul>
+      <div class="nav-header">
+        <img src="./img/ic.menu@2x.png" alt="Menu" id="open-menu" style="height: 24px; width: 24px;">
+        <img src="./img/logo_header.png" alt="Logo" style="height: 58px; width: 142px;">
+        <img src="./img/ic_search.svg" alt="Search" style="height: 24px; width: 24px;">
+      </div>
+
+      <div class="nav-menu hidden">
+        <div class="nav-menu-header">
+          <div class="close"  id="close-menu">
+            <span class="down"></span>
+            <span class="up"></span>
+          </div>
+          <img src="./img/logo_header.png" alt="Logo" style="height: 58px; width: 142px;">
+          <img src="./img/ic_search.svg" alt="Search" style="height: 24px; width: 24px;">
+        </div>
+        <div class="nav-menu-content">
+          <ul>
+            <li>brand philosophy</li>
+            <li>product technology</li>
+            <li>all products</li>
+            <li>intibiome wellness</li>
+            <li>intibiome active</li>
+            <li>intibiome agecare</li>
+            <li>article 1</li>
+            <li>article 2</li>
+            <li>article 3</li>
+            <li>faq</li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <div class="banner-hero">
